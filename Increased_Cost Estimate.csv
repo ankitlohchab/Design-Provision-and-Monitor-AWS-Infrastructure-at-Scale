@@ -1,0 +1,16 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon Aurora MySQL-Compatible,0,7297.1,87565.2,USD,"Change records per statement (0.38), (2 instances)  db.r5.8xlarge  Memory optimized  OnDemand, Storage amount (5 TB), Number of I/Os per month in millions (1), Additional backup storage (500 GB)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,454.43,5453.16,USD,"Number of Network Load Balancers (1), Average number of new TCP connections (150 per second), Processed bytes per NLB for TCP (100 GB per hour), Average TCP connection duration (50 seconds)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,308.43,3701.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Amazon EC2  (Web Server),0,1042.23,12506.76,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (1.2 TB), Instance type (t3a.2xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2  (Application Server),0,1651.4,19816.8,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (2 TB), Instance type (r5a.2xlarge)"
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,2306.8,27681.6,USD,"Number of EC2 instances (8), Number of EIPs per instance (40)"
+My Estimate,US East (N. Virginia),S3 Standard,0,4584.99,55019.88,USD,S3 Standard storage (200 TB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,40.96,491.52,USD,"Data Transfer, Data transfer cost (40.96)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,2003.85,24046.2,USD,Number of NAT Gateways (1)
+Total,,,,19690.19,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+"To make use of New Increased Monthly Budget, I have increased  the computing power of the Application and Web Server with more storage such that end users may not face any latency or issues. I have also increased the efficiency of S3, NAT, Elastic IP. By using this infrastructure, the application works efficiently with over 10 million of user base",,,,,,,

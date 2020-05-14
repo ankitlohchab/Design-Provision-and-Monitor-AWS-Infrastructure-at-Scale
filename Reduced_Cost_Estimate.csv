@@ -1,0 +1,16 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon Aurora MySQL-Compatible,0,1062.3,12747.6,USD,"Change records per statement (0.38), (2 instances)  db.r5.xlarge  Memory optimized  OnDemand, Storage amount (2 TB), Number of I/Os per month in millions (1), Additional backup storage (500 GB)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,235.43,2825.16,USD,"Number of Network Load Balancers (1), Average number of new TCP connections (100 per second), Processed bytes per NLB for TCP (50 GB per hour), Average TCP connection duration (50 seconds)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,308.43,3701.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Amazon EC2  (Web Server),0,766.88,9202.56,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (1.2 TB), Instance type (t3a.xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2  (Application Server),0,766.88,9202.56,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (1.2 TB), Instance type (t3a.xlarge)"
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,1255.6,15067.2,USD,"Number of EC2 instances (8), Number of EIPs per instance (22)"
+My Estimate,US East (N. Virginia),S3 Standard,0,1205.79,14469.48,USD,S3 Standard storage (50 TB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,40.96,491.52,USD,"Data Transfer, Data transfer cost (40.96)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,361.35,4336.2,USD,Number of NAT Gateways (1)
+Total,,,,6003.62,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+Reduced Monthly Budget By Using DB Instances of Smaller Size.,,,,,,"According to me to fit into the budget, this is the area where I can compromise as compared to the performance an end user get such as Minimum Latency.",
